@@ -8,4 +8,8 @@ if(CCACHE_PROGRAM)
   set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE "${CCACHE_PROGRAM}")
 endif()
 
+if(NOT MSVC)
+  add_definitions("-fno-fast-math")
+endif()
+
 add_library(sqlite3 STATIC sqlite3.c)
