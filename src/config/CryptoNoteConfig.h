@@ -86,14 +86,14 @@ const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 2;
 const uint64_t MINIMUM_FEE                                   = UINT64_C(10);
 
 /* This section defines our minimum and maximum mixin counts required for transactions */
-const uint64_t MINIMUM_MIXIN_V1                              = 0;
-const uint64_t MAXIMUM_MIXIN_V1                              = 1;
+const uint64_t MINIMUM_MIXIN_V1                              = 2;
+const uint64_t MAXIMUM_MIXIN_V1                              = 2;
 
-const uint64_t MINIMUM_MIXIN_V2                              = 1;
-const uint64_t MAXIMUM_MIXIN_V2                              = 2;
+const uint64_t MINIMUM_MIXIN_V2                              = 3;
+const uint64_t MAXIMUM_MIXIN_V2                              = 3;
 
-const uint64_t MINIMUM_MIXIN_V3                              = 2;
-const uint64_t MAXIMUM_MIXIN_V3                              = 3;
+const uint64_t MINIMUM_MIXIN_V3                              = 4;
+const uint64_t MAXIMUM_MIXIN_V3                              = 4;
 
 /* The heights to activate the mixin limits at */
 const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 440000;
@@ -110,7 +110,7 @@ const uint64_t DEFAULT_MIXIN_V3                              = MAXIMUM_MIXIN_V3;
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(10);
 const uint64_t DEFAULT_DUST_THRESHOLD_V2                     = UINT64_C(0);
 
-const uint32_t DUST_THRESHOLD_V2_HEIGHT                      = 0;
+const uint32_t DUST_THRESHOLD_V2_HEIGHT                      = 10;
 const uint32_t FUSION_DUST_THRESHOLD_HEIGHT_V2               = 800000;
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
 
@@ -251,8 +251,8 @@ const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE          = 10;
 const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
-const char     LATEST_VERSION_URL[]                          = "http://latest.turtlecoin.lol";
-const std::string LICENSE_URL                                = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
+const char     LATEST_VERSION_URL[]                          = "http://www.usdx.co";
+const std::string LICENSE_URL                                = "https://github.com/avonstanfield/USDX/blob/development/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
     {  0xb8, 0x0c, 0x6a, 0x6c, 0xcf, 0x62, 0x56, 0x61, 0x65, 0xf6, 0x61, 0xa8, 0xb6, 0xc1, 0x83, 0xe6  }
