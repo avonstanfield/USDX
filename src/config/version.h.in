@@ -3,7 +3,7 @@
 
 #define PROJECT_NAME "USDX"
 #define PROJECT_SITE "http://www.usdx.co"
-#define PROJECT_COPYRIGHT "Copyright 2018-2019, the USDX Developers"
+#define PROJECT_COPYRIGHT "Copyright 2019, the USDX Developers"
 #define APP_VER_MAJOR 0
 #define APP_VER_MINOR 0
 #define APP_VER_REV 1
